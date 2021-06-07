@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section {
+    display: block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+}
+
+@media screen and (min-width: 680px){
+    .nav{
+    height: 70px;
+    }
+}
+.nav {
+    background: #fff;
+    box-shadow: 0 0 1px rgb(0 65 94 / 20%);
+    z-index: 102;
+    transition: height 600ms 0s ease;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.nav-container {
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 90%;
+    position: relative;
+    max-width: 1260px;
+    margin: 0 auto;
+}
+.nav-item-logo-icon{
+    width: fit-content;
+}
+.nav-item-logo-icon .icon-logo {
+    fill: #5fcf80;
+}
+.nav-container .nav-item-logo-icon{
+    float: left;
+    width: 150px;
+}
+.list ul {
+    display: flex;
+    justify-content: space-between;
+}
+.list li{
+    text-decoration: none;
+    list-style: none;   
+}
+.list li a {
+    text-decoration: none;
+    color: #3e7fae;
+}
+.homepage-tabs {
+    max-width: 1260px;
+    margin: 0 auto 5rem auto;
+    text-align: center;
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.homepage-tabs a {
+    text-decoration: none;
+    color: #576366;
+    border-bottom: 3px solid #e8ebed;
+    font-weight: 600;
+    flex-grow: 1;
+    font-size: 1.5rem;
+    padding: 2rem;
+}
+.homepage-tabs a:hover {
+    cursor: pointer;
+    color: #007e92;
+    border-bottom: 3px solid #0098b1;
+}
+
+.homepage{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 500px;
+    padding: 5rem;
+    background: url(https://static.teamtreehouse.com/assets/views/marketing/home/courses-p1-c0b650de482551e926ba084d942a1ebdebd454b9c8e0be0b974ad61fcfe65c7f.jpg) center/cover no-repeat;
+}
+.techdegrees {
+    background: url(https://static.teamtreehouse.com/assets/views/marketing/home/td-p3-left-4b40616c661b28e107def333485060c0a0f1a4f9f625f07bc1b363f31a5f6a27.svg) no-repeat,url(https://static.teamtreehouse.com/assets/views/marketing/home/td-p3-right-637aaead1200c52f224982e0fe33a598b812f03b0fa71168de8f419d25a97269.svg) no-repeat;
+    background-position: -40px, right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    align-content: center;
+}
+.journy {
+    max-width: 12620px;
+    margin: 0 auto;
+    text-align: center;
+}
+.journy h2 {
+    padding-top: 10%;
+    font-size: 2.25rem;
+    letter-spacing: 1.2px;
+    line-height: 1.3;
+    color: #40484a;
+    display: block;
+    font-weight: 600;
+}
+.journy h3 {
+    font-size: 1.5rem;
+    letter-spacing: 1px;
+    line-height: 68px;
+    color: #40484a;
+    display: block;
+    font-weight: 600;
+}
+.journy-button {
+    text-align: center;
+    line-height: 78px;
+}
+.journy-button .button {
+    border-radius: 4px;
+    background-color: #007589;
+    display: inline-block;
+    width: 100px;
+}
+.journy-button a {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 48px;
+    font-weight: 600;
+    padding: 0 32px;
+    color: #fff;
+    position: relative;
+}
+.journy-button a:hover {
+    background-color: #195161;
+}
+.td-banner {
+    height: auto;
+    background: url(https://static.teamtreehouse.com/assets/views/marketing/home/experiment_techdegree_bg_courses-edf18388261d86384fc03152847a60ec9dbdbd3bcc1bf5b1a970ce3554afe0ce.png) center/cover no-repeat;
+}
+.td-banner img {
+    object-fit: contain;
+    max-width: 100%;
+    height: auto;
+    border: 0;
+}
+.col-max {
+    max-width: 1260px;
+    margin: 0 auto;
+    padding: 5rem;
+    padding-left: 15%;
+}
+.td-banner-content {
+    display: flex;
+    flex: wrap;
+    align-content: center;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    max-width: 1260px;
+}
+.td-banner-content h2 {
+    margin-bottom: 1rem;
+    font-size: 2.25rem;
+    letter-spacing: 1.2px;
+    color: #40484a;
+    display: block;
+    font-weight: 500;
+}
+
+.success-story {
+    padding: 5rem 1.5rem;
+}
+.success-story h2 {
+    font-size: 2.25rem;
+    color: #40484a;
+    letter-spacing: 1.2px;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.success-story h5 {
+    font-size: 1rem;
+    color: #40484a;
+    display: block;
+    font-weight: 500;
+    line-height: 1.3;
+    box-sizing: border-box;
+    text-align: center;
+}
+.story-card {
+    background: #fff;
+    border-radius: 8px;
+    border: solid 3px #EDEFF0;
+    min-height: 400px;
+}
+#malina {
+    height: 500px;
+    background: url(https://static.teamtreehouse.com/assets/views/marketing/home/stories-headshots/primary_malina-sq-776a8f96081d11a72c3b3058f8cdee338695744bac1e942983b3a3748dbc99da.jpg) no-repeat;
+}
+.homepage-text{
+    align-self: center;
+    width: 1260px;
+    margin: auto;
+    display: block;
+    color: #fff;
+}
+
+
+header{
+    display: block;
+}
+@media screen and (min-width: 960px) {
+    .text-1 {
+        letter-spacing: 1px !important;
+        font-size: 1.5rem !important;
+    }
+    .text-2 {
+        letter-spacing: 1.3px !important;
+        font-size: 3rem !important;
+    }
+}
+.text-1 {
+    letter-spacing: 1.2px;
+    font-size: 2.25rem;
+}
+.text-2 {
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+h1 {
+    font-family: Gotham Rounded A", "Gotham Rounded B", "Helvetica", Helvetica, Arial, sans-serif;
+    
+}
+h2 {
+    display: block;
+    font-weight: 500;
+    text-rendering: optimizeLegibility;
+}
+h1 {
+    display: block;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.3 !important;
+    text-rendering: optimizeLegibility;
+}
+
+.col-container:before, .col-container:after {
+    content: " ";
+    display: table;
+}
+.p-lr-2-xs {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+.homepage-signup-form {
+    background-color: #fff;
+    position: relative;
+    top: -100px;
+    padding: 2rem;
+    -webkit-box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 20%);
+    -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 20%);
+}
+
+.m-b-0-xs {
+    margin-bottom: 0rem !important;
+}
+
+.form-banner {
+    background-color: #2d3339;
+    border-radius: 4px 4px 0 0;
+    font-size: 1.125rem;
+    text-align: center;
+    font-weight: 500;
+    padding: 1.5rem;
+    margin: -32px -32px 32px;
+    color: #fff;
+}
+.regular {
+    font-weight: normal !important;
+}
+input[type='email']{
+    padding: 12px 15px;
+}
+.form-text-input{
+    background-color: #f9fafa;
+    border-color: #d4d9dd;
+    transition: .2s;
+    margin: 0;
+    font-size: 1rem;
+    padding: .75rem 1rem;
+    outline: none;
+    border: 2px solid #d4d9dd;
+    border-radius: 4px;
+    box-shadow: 0;
+    box-sizing: border-box;
+    color: #40484a;
+}
+.w-full-xs {
+    width: 100% !important;
+}
+
+input {
+    line-height: normal;
+}
+.homepage-qa {
+    background-color: #edeff0;
+}
+
+@media screen and (min-width: 680px)
+{
+    .p-lr-4-md {
+        padding-left: 3rem !important;
+        padding-right: 3rem !important;
+    }
+}
+.p-tb-6-xs {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+}
+.p-lr-2-xs {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+.homepage-qa-section {
+    max-width: 1260px;
+    margin: auto;
+}
+.homepage-qa-section-block {
+    margin: 0 auto 1.5rem auto;
+    display: block;
+}
+
+body, a {
+    font-family: "Gotham Rounded A", "Gotham Rounded B", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+}
+.toggle-steps:not(.nav-link) {
+    font-size: 1.5rem;
+    color: #4b5658;
+    padding-bottom: 1.5rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #d4d9dd;
+}
+.toggle-steps {
+    display: block;
+    font-weight: 500;
+}
+.toggle-steps-view {
+    display: flex;
+    align-items: center;
+}
+.toggle-steps-view-chevron {
+    position: relative;
+    margin-left: auto;
+    background-color: #0098b1;
+    padding: 1rem;
+    border-radius: 50%;
+    height: 40px;
+    min-width: 40px;
+}
+
+.toggle-steps-view-chevron svg {
+    fill: white;
+    position: absolute;
+    top: 17px;
+    left: 14px;
+}
+.steps-list {
+    max-width: 800px;
+}
+
+
+.border {
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient( to right, #0B88C3 ,#00D377 ,#00B950 ,#FFD247 ,#FF9800 ,#FF464F ,#FF82B3 ,#FF4385 ,#A47DCC ,#875BB5 );
+}
