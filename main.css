@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Gotham Rounded A", "Gotham Rounded B", "Helvetica", Helvetica, Arial, sans-serif;
 }
 section {
     display: block;
@@ -21,19 +22,26 @@ section {
     box-shadow: 0 0 1px rgb(0 65 94 / 20%);
     z-index: 102;
     transition: height 600ms 0s ease;
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
+    position: sticky;
+    display: flex;
+    font-size: 1.2rem;
+    width: 100vw;
+       
+
+
 }
 
 .nav-container {
-    padding-top: 0;
-    padding-bottom: 0;
-    width: 90%;
+    width: 100%;
     position: relative;
-    max-width: 1260px;
-    margin: 0 auto;
+    left: auto;
+    right: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    
+
 }
 .nav-item-logo-icon{
     width: fit-content;
@@ -48,6 +56,8 @@ section {
 .list ul {
     display: flex;
     justify-content: space-between;
+    width: 40vw;
+    
 }
 .list li{
     text-decoration: none;
@@ -56,7 +66,135 @@ section {
 .list li a {
     text-decoration: none;
     color: #3e7fae;
+    font-weight: 700;
 }
+ul li .active
+{
+    color: #303853;
+    text-decoration: underline;
+}
+.homepage-text{
+    align-self: center;
+    width: 1260px;
+    margin: auto;
+    display: block;
+    color: #fff;
+}
+
+
+header{
+    display: block;
+}
+@media screen and (min-width: 960px) {
+    .text-1 {
+        letter-spacing: 1px !important;
+        font-size: 1.5rem !important;
+    }
+    .text-2 {
+        letter-spacing: 1.3px !important;
+        font-size: 3rem !important;
+    }
+}
+.text-1 {
+    letter-spacing: 1.2px;
+    font-size: 2.25rem;
+}
+.text-2 {
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+h1 {
+    font-family: Gotham Rounded A", "Gotham Rounded B", "Helvetica", Helvetica, Arial, sans-serif;
+    
+}
+h2 {
+    display: block;
+    font-weight: 500;
+    text-rendering: optimizeLegibility;
+}
+h1 {
+    display: block;
+    font-weight: 500;
+    margin: 0;
+    line-height: 1.3 !important;
+    text-rendering: optimizeLegibility;
+}
+
+.col-container:before, .col-container:after {
+    content: " ";
+    display: table;
+}
+.p-lr-2-xs {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+}
+.homepage-signup-form {
+    background-color: #fff;
+    position: relative;
+    top: -100px;
+    padding: 2rem;
+    -webkit-box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 20%);
+    -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 20%);
+}
+
+.m-b-0-xs {
+    margin-bottom: 0rem !important;
+}
+
+.form-banner {
+    background-color: #2d3339;
+    border-radius: 4px 4px 0 0;
+    font-size: 1.125rem;
+    text-align: center;
+    font-weight: 500;
+    padding: 1.5rem;
+    margin: -32px -32px 32px;
+    color: #fff;
+}
+.regular {
+    font-weight: normal !important;
+}
+input[type='email']{
+    padding: 12px 15px;
+}
+.form-text-input{
+    background-color: #f9fafa;
+    border-color: #d4d9dd;
+    transition: .2s;
+    margin: 20px 0;
+    font-size: 1rem;
+    padding: .75rem 1rem;
+    outline: none;
+    border: 2px solid #d4d9dd;
+    border-radius: 4px;
+    box-shadow: 0;
+    box-sizing: border-box;
+    color: #40484a;
+}
+.form-card button {
+    text-decoration: none;
+    background-color: #007589;
+    font-size: 16px;
+    margin: 20px 0;
+    border: 0;
+    width: 100%;
+    border-radius: 4px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #fff;
+}
+.form-card button:hover {
+    background-color: #195161;
+}
+.w-full-xs {
+    width: 100% !important;
+}
+
+input {
+    line-height: normal;
+}
+
 .homepage-tabs {
     max-width: 1260px;
     margin: 0 auto 5rem auto;
@@ -173,6 +311,26 @@ section {
     display: block;
     font-weight: 500;
 }
+.bg-gray-dark {
+    padding: 5rem;
+    background-color: #3f4850 !important;
+}
+.flex-block {
+    align-content: center;
+    display: flex;
+}
+.flex-basis img {
+    flex-basis: 60% !important;
+}
+.flex-basis-40 {
+    flex-basis: 40% !important;
+}
+.button {
+    font-size: 16px;
+    height: 52px;
+    line-height: 48px;
+    padding: 0 32px;
+}
 
 .success-story {
     padding: 5rem 1.5rem;
@@ -205,127 +363,6 @@ section {
     height: 500px;
     background: url(https://static.teamtreehouse.com/assets/views/marketing/home/stories-headshots/primary_malina-sq-776a8f96081d11a72c3b3058f8cdee338695744bac1e942983b3a3748dbc99da.jpg) no-repeat;
 }
-.homepage-text{
-    align-self: center;
-    width: 1260px;
-    margin: auto;
-    display: block;
-    color: #fff;
-}
-
-
-header{
-    display: block;
-}
-@media screen and (min-width: 960px) {
-    .text-1 {
-        letter-spacing: 1px !important;
-        font-size: 1.5rem !important;
-    }
-    .text-2 {
-        letter-spacing: 1.3px !important;
-        font-size: 3rem !important;
-    }
-}
-.text-1 {
-    letter-spacing: 1.2px;
-    font-size: 2.25rem;
-}
-.text-2 {
-    letter-spacing: 1px;
-    font-size: 1.5rem;
-}
-h1 {
-    font-family: Gotham Rounded A", "Gotham Rounded B", "Helvetica", Helvetica, Arial, sans-serif;
-    
-}
-h2 {
-    display: block;
-    font-weight: 500;
-    text-rendering: optimizeLegibility;
-}
-h1 {
-    display: block;
-    font-weight: 500;
-    margin: 0;
-    line-height: 1.3 !important;
-    text-rendering: optimizeLegibility;
-}
-
-.col-container:before, .col-container:after {
-    content: " ";
-    display: table;
-}
-.p-lr-2-xs {
-    padding-left: 1.5rem !important;
-    padding-right: 1.5rem !important;
-}
-.homepage-signup-form {
-    background-color: #fff;
-    position: relative;
-    top: -100px;
-    padding: 2rem;
-    -webkit-box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 20%);
-    -moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.2);
-    box-shadow: 0px 2px 4px 0px rgb(0 0 0 / 20%);
-}
-
-.m-b-0-xs {
-    margin-bottom: 0rem !important;
-}
-
-.form-banner {
-    background-color: #2d3339;
-    border-radius: 4px 4px 0 0;
-    font-size: 1.125rem;
-    text-align: center;
-    font-weight: 500;
-    padding: 1.5rem;
-    margin: -32px -32px 32px;
-    color: #fff;
-}
-.regular {
-    font-weight: normal !important;
-}
-input[type='email']{
-    padding: 12px 15px;
-}
-.form-text-input{
-    background-color: #f9fafa;
-    border-color: #d4d9dd;
-    transition: .2s;
-    margin: 20px;
-    font-size: 1rem;
-    padding: .75rem 1rem;
-    outline: none;
-    border: 2px solid #d4d9dd;
-    border-radius: 4px;
-    box-shadow: 0;
-    box-sizing: border-box;
-    color: #40484a;
-}
-.form-card button {
-    text-decoration: none;
-    background-color: #007589;
-    font-size: 16px;
-    margin: 20px;
-    border: 0;
-    width: 100%;
-    border-radius: 4px;
-    line-height: 48px;
-    font-weight: 600;
-    color: #fff;
-}
-.form-card button:hover {
-    background-color: #195161;
-}
-.w-full-xs {
-    width: 100% !important;
-}
-
-input {
-    line-height: normal;
-}
 .homepage-qa {
     background-color: #edeff0;
 }
@@ -348,10 +385,15 @@ input {
 .homepage-qa-section {
     max-width: 1260px;
     margin: auto;
+    line-height: 50px;
 }
 .homepage-qa-section-block {
     margin: 0 auto 1.5rem auto;
     display: block;
+}
+.homepage-qa-section p{
+    line-height: 30px;
+    font-weight: 500;
 }
 
 body, a {
@@ -381,14 +423,14 @@ body, a {
     border-radius: 50%;
     height: 40px;
     min-width: 40px;
+    float: right;
+    display: flex;
 }
 
 .toggle-steps-view-chevron svg {
     fill: white;
-    position: absolute;
-    top: 17px;
-    left: 14px;
-}
+    align-items: center;}
+
 .steps-list {
     max-width: 800px;
 }
@@ -399,4 +441,28 @@ body, a {
     width: 100%;
     height: 3px;
     background: linear-gradient( to right, #0B88C3 ,#00D377 ,#00B950 ,#FFD247 ,#FF9800 ,#FF464F ,#FF82B3 ,#FF4385 ,#A47DCC ,#875BB5 );
+}
+footer
+{
+    height: 80vh;
+}
+footer .container
+{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+footer .container ul
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    list-style: none;
+    line-height: 50px;
+}
+
+footer .container .col:nth-child(1)
+{
+    font-size: small;
 }
