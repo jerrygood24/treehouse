@@ -294,7 +294,7 @@ input[type='email']{
     background-color: #f9fafa;
     border-color: #d4d9dd;
     transition: .2s;
-    margin: 0;
+    margin: 20px;
     font-size: 1rem;
     padding: .75rem 1rem;
     outline: none;
@@ -303,6 +303,21 @@ input[type='email']{
     box-shadow: 0;
     box-sizing: border-box;
     color: #40484a;
+}
+.form-card button {
+    text-decoration: none;
+    background-color: #007589;
+    font-size: 16px;
+    margin: 20px;
+    border: 0;
+    width: 100%;
+    border-radius: 4px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #fff;
+}
+.form-card button:hover {
+    background-color: #195161;
 }
 .w-full-xs {
     width: 100% !important;
